@@ -32,6 +32,7 @@
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
 
+		<script>Reveal.configure({ pdfMaxPagesPerSlide: 1 });</script>
 		<script>
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
@@ -45,7 +46,6 @@
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				]
 			});
-			Reveal.configure({ pdfMaxPagesPerSlide: 1 });
 		</script>
 	</body>
 </html>
